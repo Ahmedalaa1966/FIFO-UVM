@@ -1,0 +1,129 @@
+{D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_test_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv(3): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv(4): (vlog-13006) Could not find the package (fifo_env_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv(5): (vlog-13006) Could not find the package (read_only_sequence_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv(6): (vlog-13006) Could not find the package (write_only_sequence).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv(7): (vlog-13006) Could not find the package (read_write_sequence_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv(8): (vlog-13006) Could not find the package (fifo_config_obj_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv(10): (vlog-2163) Macro `uvm_component_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_test.sv(10): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 13.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/fifo_scoarboard.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_scoarboard.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_scoreboard_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_scoarboard.sv(4): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_scoarboard.sv(5): (vlog-13006) Could not find the package (fifo_seq_item_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_scoarboard.sv(8): (vlog-2163) Macro `uvm_component_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_scoarboard.sv(8): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 9.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/Interface_FIFO.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/Interface_FIFO.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface fifo_if
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/verifivation course/UVM Project/fifo_sequencer.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_sequencer_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_sequencer.sv(3): (vlog-13006) Could not find the package (fifo_seq_item_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_sequencer.sv(4): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_sequencer.sv(5): (vlog-2730) Undefined variable: 'fifo_seq_item'.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_sequencer.sv(6): (vlog-2163) Macro `uvm_component_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_sequencer.sv(6): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 10.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/read_write_seq.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/read_write_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package read_write_sequence_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/read_write_seq.sv(3): (vlog-13006) Could not find the package (fifo_seq_item).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/read_write_seq.sv(4): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/read_write_seq.sv(5): (vlog-2730) Undefined variable: 'fifo_seq_item'.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/read_write_seq.sv(6): (vlog-2163) Macro `uvm_object_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/read_write_seq.sv(6): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 10.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/fifo_driver.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_driver_pkg
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_driver.sv(2): near "import": syntax error, unexpected "SystemVerilog keyword 'import'", expecting ';'.
+
+} {4.0 5.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/fifo_coverage.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_coverage_pkg
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_coverage.sv(2): near "import": syntax error, unexpected "SystemVerilog keyword 'import'", expecting ';'.
+
+} {4.0 5.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/fifo_seq_item.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_seq_item.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_seq_item_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_seq_item.sv(3): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_seq_item.sv(5): (vlog-2163) Macro `uvm_object_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_seq_item.sv(5): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 8.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_agent_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv(4): (vlog-13006) Could not find the package (fifo_sequencer_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv(5): (vlog-13006) Could not find the package (fifo_monitor_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv(6): (vlog-13006) Could not find the package (fifo_driver_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv(7): (vlog-13006) Could not find the package (fifo_monitor_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv(8): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv(9): (vlog-13006) Could not find the package (fifo_config_obj_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv(12): (vlog-2163) Macro `uvm_component_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_agent.sv(12): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 13.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/fifo_monitor.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_monitor_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_monitor.sv(4): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_monitor.sv(5): (vlog-13006) Could not find the package (fifo_seq_item_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_monitor.sv(8): (vlog-2163) Macro `uvm_component_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_monitor.sv(8): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 9.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/fifo_env.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/fifo_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_env_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_env.sv(3): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_env.sv(4): (vlog-13006) Could not find the package (fifo_agent_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_env.sv(5): (vlog-13006) Could not find the package (fifo_scoreboard_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_env.sv(6): (vlog-13006) Could not find the package (fifo_coverage_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/fifo_env.sv(9): (vlog-2163) Macro `uvm_component_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/fifo_env.sv(9): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 11.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/write_only_seq.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/write_only_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package write_only_sequence_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/write_only_seq.sv(3): (vlog-13006) Could not find the package (fifo_seq_item).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/write_only_seq.sv(4): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/write_only_seq.sv(5): (vlog-2730) Undefined variable: 'fifo_seq_item'.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/write_only_seq.sv(6): (vlog-2163) Macro `uvm_object_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/write_only_seq.sv(6): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 10.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/read_only_seq.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/read_only_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package read_only_sequence_pkg
+-- Importing package uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Digital Electronics/verifivation course/UVM Project/read_only_seq.sv(3): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/read_only_seq.sv(4): (vlog-13006) Could not find the package (fifo_seq_item_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/read_only_seq.sv(5): (vlog-2730) Undefined variable: 'fifo_seq_item'.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/read_only_seq.sv(6): (vlog-2163) Macro `uvm_object_utils is undefined.
+** Error: (vlog-13069) D:/Digital Electronics/verifivation course/UVM Project/read_only_seq.sv(6): near "(": syntax error, unexpected '(', expecting function or task or "SystemVerilog keyword 'pure'".
+
+} {5.0 10.0} {}} {D:/Digital Electronics/verifivation course/UVM Project/Top_FIFO.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/verifivation course/UVM Project/Top_FIFO.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/Digital Electronics/verifivation course/UVM Project/Top_FIFO.sv(1): (vlog-13304) Invalid use of Verilog config keyword 'include' found.
+** Error: D:/Digital Electronics/verifivation course/UVM Project/Top_FIFO.sv(1): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_pkg.sv".
+** Error: D:/Digital Electronics/verifivation course/UVM Project/Top_FIFO.sv(2): Cannot open `include file "D:/programs/questasim download/ovm-2.1.2/../verilog_src/ovm-2.1.2/src/uvm_macros.svh".
+** Warning: D:/Digital Electronics/verifivation course/UVM Project/Top_FIFO.sv(2): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/Digital Electronics/verifivation course/UVM Project/Top_FIFO.sv(19): (vlog-2284) Empty $unit scope found.
+
+} {4.0 6.0} {}}

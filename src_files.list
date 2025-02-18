@@ -1,0 +1,17 @@
+fifo_interface.sv
+fifo_confg.sv
+seq_item.sv
+write_seq.sv
+write_read_seq.sv
+read_seq.sv
+reset_seq.sv
+sequencer.sv
+fifo_driver.sv
+fifo_monitor.sv
+fifo_agt.sv
+fifo_scoreboard.sv
+fifo_coverage.sv
+fifo_env.sv
+fifo_test.sv
+FIFO_corrected.sv
+fifo_top.sv
